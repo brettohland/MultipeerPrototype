@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A31AA28F1937E3D00047E74C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31AA28E1937E3D00047E74C /* Foundation.framework */; };
+		A31AA2911937E3D00047E74C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31AA2901937E3D00047E74C /* CoreGraphics.framework */; };
+		A31AA2931937E3D00047E74C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31AA2921937E3D00047E74C /* UIKit.framework */; };
+		A31AA2991937E3D00047E74C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A31AA2971937E3D00047E74C /* InfoPlist.strings */; };
+		A31AA29B1937E3D00047E74C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A31AA29A1937E3D00047E74C /* main.m */; };
+		A31AA29F1937E3D00047E74C /* ASWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A31AA29E1937E3D00047E74C /* ASWAppDelegate.m */; };
+		A31AA2A21937E3D00047E74C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31AA2A01937E3D00047E74C /* Main.storyboard */; };
+		A31AA2A51937E3D00047E74C /* ASWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31AA2A41937E3D00047E74C /* ASWViewController.m */; };
+		A31AA2A71937E3D00047E74C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31AA2A61937E3D00047E74C /* Images.xcassets */; };
+		A31AA2AE1937E3D00047E74C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31AA2AD1937E3D00047E74C /* XCTest.framework */; };
+		A31AA2AF1937E3D00047E74C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31AA28E1937E3D00047E74C /* Foundation.framework */; };
+		A31AA2B01937E3D00047E74C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31AA2921937E3D00047E74C /* UIKit.framework */; };
+		A31AA2B81937E3D00047E74C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A31AA2B61937E3D00047E74C /* InfoPlist.strings */; };
+		A31AA2BA1937E3D00047E74C /* MultiPeerNetworkingPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A31AA2B91937E3D00047E74C /* MultiPeerNetworkingPrototypeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A31AA2B11937E3D00047E74C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A31AA2831937E3D00047E74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A31AA28A1937E3D00047E74C;
+			remoteInfo = MultiPeerNetworkingPrototype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A31AA28B1937E3D00047E74C /* MultiPeerNetworkingPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiPeerNetworkingPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31AA28E1937E3D00047E74C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A31AA2901937E3D00047E74C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A31AA2921937E3D00047E74C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A31AA2961937E3D00047E74C /* MultiPeerNetworkingPrototype-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiPeerNetworkingPrototype-Info.plist"; sourceTree = "<group>"; };
+		A31AA2981937E3D00047E74C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A31AA29A1937E3D00047E74C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A31AA29C1937E3D00047E74C /* MultiPeerNetworkingPrototype-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiPeerNetworkingPrototype-Prefix.pch"; sourceTree = "<group>"; };
+		A31AA29D1937E3D00047E74C /* ASWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASWAppDelegate.h; sourceTree = "<group>"; };
+		A31AA29E1937E3D00047E74C /* ASWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASWAppDelegate.m; sourceTree = "<group>"; };
+		A31AA2A11937E3D00047E74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A31AA2A31937E3D00047E74C /* ASWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASWViewController.h; sourceTree = "<group>"; };
+		A31AA2A41937E3D00047E74C /* ASWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASWViewController.m; sourceTree = "<group>"; };
+		A31AA2A61937E3D00047E74C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A31AA2AC1937E3D00047E74C /* MultiPeerNetworkingPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiPeerNetworkingPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31AA2AD1937E3D00047E74C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A31AA2B51937E3D00047E74C /* MultiPeerNetworkingPrototypeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiPeerNetworkingPrototypeTests-Info.plist"; sourceTree = "<group>"; };
+		A31AA2B71937E3D00047E74C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A31AA2B91937E3D00047E74C /* MultiPeerNetworkingPrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiPeerNetworkingPrototypeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A31AA2881937E3D00047E74C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31AA2911937E3D00047E74C /* CoreGraphics.framework in Frameworks */,
+				A31AA2931937E3D00047E74C /* UIKit.framework in Frameworks */,
+				A31AA28F1937E3D00047E74C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31AA2A91937E3D00047E74C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31AA2AE1937E3D00047E74C /* XCTest.framework in Frameworks */,
+				A31AA2B01937E3D00047E74C /* UIKit.framework in Frameworks */,
+				A31AA2AF1937E3D00047E74C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A31AA2821937E3D00047E74C = {
+			isa = PBXGroup;
+			children = (
+				A31AA2941937E3D00047E74C /* MultiPeerNetworkingPrototype */,
+				A31AA2B31937E3D00047E74C /* MultiPeerNetworkingPrototypeTests */,
+				A31AA28D1937E3D00047E74C /* Frameworks */,
+				A31AA28C1937E3D00047E74C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A31AA28C1937E3D00047E74C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A31AA28B1937E3D00047E74C /* MultiPeerNetworkingPrototype.app */,
+				A31AA2AC1937E3D00047E74C /* MultiPeerNetworkingPrototypeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A31AA28D1937E3D00047E74C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A31AA28E1937E3D00047E74C /* Foundation.framework */,
+				A31AA2901937E3D00047E74C /* CoreGraphics.framework */,
+				A31AA2921937E3D00047E74C /* UIKit.framework */,
+				A31AA2AD1937E3D00047E74C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A31AA2941937E3D00047E74C /* MultiPeerNetworkingPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				A31AA29D1937E3D00047E74C /* ASWAppDelegate.h */,
+				A31AA29E1937E3D00047E74C /* ASWAppDelegate.m */,
+				A31AA2A01937E3D00047E74C /* Main.storyboard */,
+				A31AA2A31937E3D00047E74C /* ASWViewController.h */,
+				A31AA2A41937E3D00047E74C /* ASWViewController.m */,
+				A31AA2A61937E3D00047E74C /* Images.xcassets */,
+				A31AA2951937E3D00047E74C /* Supporting Files */,
+			);
+			path = MultiPeerNetworkingPrototype;
+			sourceTree = "<group>";
+		};
+		A31AA2951937E3D00047E74C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A31AA2961937E3D00047E74C /* MultiPeerNetworkingPrototype-Info.plist */,
+				A31AA2971937E3D00047E74C /* InfoPlist.strings */,
+				A31AA29A1937E3D00047E74C /* main.m */,
+				A31AA29C1937E3D00047E74C /* MultiPeerNetworkingPrototype-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A31AA2B31937E3D00047E74C /* MultiPeerNetworkingPrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A31AA2B91937E3D00047E74C /* MultiPeerNetworkingPrototypeTests.m */,
+				A31AA2B41937E3D00047E74C /* Supporting Files */,
+			);
+			path = MultiPeerNetworkingPrototypeTests;
+			sourceTree = "<group>";
+		};
+		A31AA2B41937E3D00047E74C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A31AA2B51937E3D00047E74C /* MultiPeerNetworkingPrototypeTests-Info.plist */,
+				A31AA2B61937E3D00047E74C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A31AA28A1937E3D00047E74C /* MultiPeerNetworkingPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31AA2BD1937E3D00047E74C /* Build configuration list for PBXNativeTarget "MultiPeerNetworkingPrototype" */;
+			buildPhases = (
+				A31AA2871937E3D00047E74C /* Sources */,
+				A31AA2881937E3D00047E74C /* Frameworks */,
+				A31AA2891937E3D00047E74C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiPeerNetworkingPrototype;
+			productName = MultiPeerNetworkingPrototype;
+			productReference = A31AA28B1937E3D00047E74C /* MultiPeerNetworkingPrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A31AA2AB1937E3D00047E74C /* MultiPeerNetworkingPrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31AA2C01937E3D00047E74C /* Build configuration list for PBXNativeTarget "MultiPeerNetworkingPrototypeTests" */;
+			buildPhases = (
+				A31AA2A81937E3D00047E74C /* Sources */,
+				A31AA2A91937E3D00047E74C /* Frameworks */,
+				A31AA2AA1937E3D00047E74C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A31AA2B21937E3D00047E74C /* PBXTargetDependency */,
+			);
+			name = MultiPeerNetworkingPrototypeTests;
+			productName = MultiPeerNetworkingPrototypeTests;
+			productReference = A31AA2AC1937E3D00047E74C /* MultiPeerNetworkingPrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A31AA2831937E3D00047E74C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ASW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ampersandsoftworks;
+				TargetAttributes = {
+					A31AA2AB1937E3D00047E74C = {
+						TestTargetID = A31AA28A1937E3D00047E74C;
+					};
+				};
+			};
+			buildConfigurationList = A31AA2861937E3D00047E74C /* Build configuration list for PBXProject "MultiPeerNetworkingPrototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A31AA2821937E3D00047E74C;
+			productRefGroup = A31AA28C1937E3D00047E74C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A31AA28A1937E3D00047E74C /* MultiPeerNetworkingPrototype */,
+				A31AA2AB1937E3D00047E74C /* MultiPeerNetworkingPrototypeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A31AA2891937E3D00047E74C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31AA2A71937E3D00047E74C /* Images.xcassets in Resources */,
+				A31AA2991937E3D00047E74C /* InfoPlist.strings in Resources */,
+				A31AA2A21937E3D00047E74C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31AA2AA1937E3D00047E74C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31AA2B81937E3D00047E74C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A31AA2871937E3D00047E74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31AA29F1937E3D00047E74C /* ASWAppDelegate.m in Sources */,
+				A31AA29B1937E3D00047E74C /* main.m in Sources */,
+				A31AA2A51937E3D00047E74C /* ASWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31AA2A81937E3D00047E74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31AA2BA1937E3D00047E74C /* MultiPeerNetworkingPrototypeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A31AA2B21937E3D00047E74C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A31AA28A1937E3D00047E74C /* MultiPeerNetworkingPrototype */;
+			targetProxy = A31AA2B11937E3D00047E74C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A31AA2971937E3D00047E74C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31AA2981937E3D00047E74C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A31AA2A01937E3D00047E74C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31AA2A11937E3D00047E74C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A31AA2B61937E3D00047E74C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31AA2B71937E3D00047E74C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A31AA2BB1937E3D00047E74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A31AA2BC1937E3D00047E74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A31AA2BE1937E3D00047E74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiPeerNetworkingPrototype/MultiPeerNetworkingPrototype-Prefix.pch";
+				INFOPLIST_FILE = "MultiPeerNetworkingPrototype/MultiPeerNetworkingPrototype-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A31AA2BF1937E3D00047E74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiPeerNetworkingPrototype/MultiPeerNetworkingPrototype-Prefix.pch";
+				INFOPLIST_FILE = "MultiPeerNetworkingPrototype/MultiPeerNetworkingPrototype-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A31AA2C11937E3D00047E74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiPeerNetworkingPrototype.app/MultiPeerNetworkingPrototype";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiPeerNetworkingPrototype/MultiPeerNetworkingPrototype-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MultiPeerNetworkingPrototypeTests/MultiPeerNetworkingPrototypeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A31AA2C21937E3D00047E74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiPeerNetworkingPrototype.app/MultiPeerNetworkingPrototype";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiPeerNetworkingPrototype/MultiPeerNetworkingPrototype-Prefix.pch";
+				INFOPLIST_FILE = "MultiPeerNetworkingPrototypeTests/MultiPeerNetworkingPrototypeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A31AA2861937E3D00047E74C /* Build configuration list for PBXProject "MultiPeerNetworkingPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31AA2BB1937E3D00047E74C /* Debug */,
+				A31AA2BC1937E3D00047E74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A31AA2BD1937E3D00047E74C /* Build configuration list for PBXNativeTarget "MultiPeerNetworkingPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31AA2BE1937E3D00047E74C /* Debug */,
+				A31AA2BF1937E3D00047E74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A31AA2C01937E3D00047E74C /* Build configuration list for PBXNativeTarget "MultiPeerNetworkingPrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31AA2C11937E3D00047E74C /* Debug */,
+				A31AA2C21937E3D00047E74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A31AA2831937E3D00047E74C /* Project object */;
+}
